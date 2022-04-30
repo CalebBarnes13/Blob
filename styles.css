@@ -1,0 +1,65 @@
+@keyframes morph {
+    0%, 100% {
+        border-radius: 
+        42% 56% 72% 20% / 42% 42% 56% 40%;
+    }
+    33% {
+            border-radius: 
+            72% 28% 48% 48% / 28% 28% 72% 72%;
+    }
+    66% {
+        border-radius: 
+        100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blob {
+    overflow: hidden;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 42% 56% 72% 20% / 42% 42% 56% 48%;
+
+    background: #8f44fd
+        url(https://www.xtrafondos.com/wallpapers/toy-story-4-buzz-lightyear-3324.jpg);
+
+    background-size: cover;
+    background-position: center;
+
+    animation: morph 3.75s linear infinite;
+}
+
+.blob2 {
+    overflow: hidden;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 42% 56% 72% 20% / 42% 42% 56% 48%;
+
+    background: #8f44fd
+        url(https://www.xtrafondos.com/wallpapers/toy-story-4-woody-3325.jpg);
+
+    background-size: cover;
+    background-position: center;
+
+    animation: morph 3.75s linear infinite;
+}
+
+.blob3 {
+    overflow: hidden;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 42% 56% 72% 20% / 42% 42% 56% 48%;
+
+    background: #8f44fd
+        url(https://www.xtrafondos.com/wallpapers/jessie-en-toy-story-de-terror-851.jpg);
+
+    background-size: cover;
+    background-position: center;
+
+    animation: morph 3.75s linear infinite;
+}
+
